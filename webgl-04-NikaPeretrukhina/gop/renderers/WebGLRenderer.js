@@ -279,21 +279,6 @@ class WebGLRenderer {
 				pointLightIndex++; //dürch alle 5 lichter 
 			}
 		});
-		//send to shader
-
-/*
-		
-
-		// Set the point light uniforms
-		for (let i = 0; i < pointLightColors.length; i++) {
-			const pointLightColor = pointLightColors[i];
-			const pointLightPosition = pointLightPositions[i];
-			
-
-			program.setUniform(`pointLights[${i}].color`, pointLightColor); //Die Methode program.setUniform wird verwendet, um diese Informationen an den Shader zu übergeben
-			program.setUniform(`pointLights[${i}].position`, pointLightPosition.toArray());
-			
-		}*/
 	}
 
 

@@ -340,8 +340,8 @@ function main() {
         carBody.position.z = Math.sin(time/1000 * controls.duration);
 
         carBody.rotation.y = Math.sin(time/1000 * controls.duration);
-        const maxRotation = Math.PI / 4; // 45 grados en radianes
-        const quarterRotation = -maxRotation / 2; // un cuarto del ángulo máximo de rotación
+        const maxRotation = Math.PI / 4; 
+        const quarterRotation = -maxRotation / 2; 
         pivotPoint1.rotation.z = Math.min(Math.sin(time / 500 ), quarterRotation);
         pivotPoint2.rotation.z = Math.min(Math.sin(time / 500 ), quarterRotation);
         pivotPoint3.rotation.z = Math.min(Math.sin(time / 500 ), quarterRotation);
